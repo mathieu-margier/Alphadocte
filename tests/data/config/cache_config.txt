@@ -1,0 +1,27 @@
+file_path /dataPath/fr_wordlist.txt
+file_timestamp -4793217213896459979
+begin solver_entry
+solver_name entropy_maximizer
+solver_version 1
+begin guess_entry
+template .....
+requested_number 3
+guess raies 6.342236
+guess taies 6.299622
+guess tarie 6.299398
+end guess_entry
+begin guess_entry
+template s......
+requested_number 3
+guess sauries 7.654206
+guess sorties 7.544587
+guess surites 7.533810
+end guess_entry
+begin guess_entry
+template f........
+requested_number 3
+guess fruitiees 9.514804
+guess feutrines 9.460037
+guess fourniees 9.453263
+end guess_entry
+end solver_entry

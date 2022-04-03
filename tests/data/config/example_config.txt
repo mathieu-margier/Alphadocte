@@ -1,0 +1,15 @@
+# Cache entry for dictionary fr
+file_path /usr/local/share/motus-solver/fr_dict.txt
+file_timestamp 123456789
+
+begin solver_entry
+solver_name xxxxx
+solver_version 1
+
+begin guess_entry
+template .....
+guess abdef 5.99
+guess defgh 4.98
+end guess_entry 
+
+end solver_entry

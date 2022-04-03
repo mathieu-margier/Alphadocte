@@ -1,0 +1,41 @@
+/*
+ * Copyright (C) 2022  Mathieu Margier
+ *
+ *  This file is part of Alphadocte.
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ * 
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>. 
+ * 
+ * File: Alphadocte.h
+ */
+
+#ifndef ALPHADOCTE_H_
+#define ALPHADOCTE_H_
+
+#define ALPHADOCTE_VERSION_MAJOR @Alphadocte_VERSION_MAJOR@
+#define ALPHADOCTE_VERSION_MINOR @Alphadocte_VERSION_MINOR@
+#define ALPHADOCTE_VERSION_PATCH @Alphadocte_VERSION_PATCH@
+#define ALPHADOCTE_VERSION_NAME "@CMAKE_PROJECT_VERSION@"
+
+#cmakedefine ALPHADOCTE_OS_LINUX 1
+#cmakedefine ALPHADOCTE_OS_WINDOWS 1
+
+namespace Alphadocte {
+
+// Word size is defined as a short, so a dictionary should not contain word longer than 2^16 (highly unlikely!)
+typedef unsigned short word_size;
+
+
+} /* namespace Alphadocte */
+
+#endif /* ALPHADOCTE_H_ */
